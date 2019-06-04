@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOPATH=/home/user/public_html/
+    - export DEPLOPATH=/C:/users/Quintez/Code/Company/AsiasHairKollection
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
