@@ -205,38 +205,47 @@ h4 {
 
 /* Portfolio */
 
-div.gallery {
-  border: 1px solid;
-  border-color: none;
+div.grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
-div.gallery:hover {
+/* div.gallery {
   border: 1px solid;
   border-color: none;
-}
+} */
+
+/* div.gallery:hover {
+  border: 1px solid;
+  border-color: none;
+} */
 
 div.gallery img {
   width: 100%;
   height: auto;
+  padding: 0 20%;
+  margin-bottom: 50%;
+
 }
 
-div.desc {
+/* div.desc {
   padding: 15px;
   text-align: center;
   color: white;
-}
+} */
 
 * {
   box-sizing: border-box;
 }
 
-.responsive {
+/* .responsive {
   padding: 0 60px;
   padding-bottom: 100px;
   float: left;
   width: 24.99999%;
   background-color: black;
-}
+} */
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -265,11 +274,11 @@ div.desc {
   padding-top: 1110px;
 }
 
-.space2 {
+/* .space2 {
   position: relative;
   padding-top: 1298.5px;
   margin-top: 498.5px;
-}
+} */
 
 .wc {
   color: white;
