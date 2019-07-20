@@ -128,7 +128,6 @@ h4 {
 }
 
 .sbg {
-  position: relative;
   background-color: #F272E0;
 }
 
@@ -206,7 +205,7 @@ h4 {
 
 /* Portfolio */
 
-div.grid {
+.grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 33.33% 33.33% 33.33%;
@@ -222,7 +221,7 @@ div.grid {
   border-color: none;
 } */
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
   padding: 0 20%;
@@ -276,11 +275,12 @@ div.gallery img {
   padding-top: 1110px;
 }
 
-.space2 {
+ .space2 {
   position: relative;
+  display: block;
   padding-top: 1px;
   margin-top: 1px;
-}
+} 
 
 .wc {
   color: white;
