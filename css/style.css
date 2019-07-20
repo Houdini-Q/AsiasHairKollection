@@ -128,6 +128,7 @@ h4 {
 }
 
 .sbg {
+  position: relative;
   background-color: #F272E0;
 }
 
@@ -247,7 +248,7 @@ div.gallery img {
   background-color: black;
 } */
 
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -264,21 +265,22 @@ div.gallery img {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .space1 {
   padding-top: 1px;
+  width: 100%;
 }
 
 .space {
   padding-top: 1110px;
 }
 
-/* .space2 {
+.space2 {
   position: relative;
-  padding-top: 1298.5px;
-  margin-top: 498.5px;
-} */
+  padding-top: 1px;
+  margin-top: 1px;
+}
 
 .wc {
   color: white;
